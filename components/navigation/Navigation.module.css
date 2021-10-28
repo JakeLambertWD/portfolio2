@@ -1,0 +1,101 @@
+/* create 3 lines */
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+	width: 30px;
+	height: 2px;
+	background-color: black;
+	display: inline-block;
+}
+
+/* give absolute positions */
+.navigation__icon::before,
+.navigation__icon::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	transition: all 0.2s;
+}
+
+/* move up */
+.navigation__icon::before {
+	top: -8px;
+}
+
+/* move down */
+.navigation__icon::after {
+	top: 8px;
+}
+
+/* if checkbox is checked then target background and scale to full screen */
+.navigation__checkbox:checked ~ .navigation__background {
+	transform: scale(80);
+}
+
+.navigation__checkbox:checked ~ .navigation__nav {
+	opacity: 1;
+	width: 100vw;
+}
+
+/* when checkbox is active, target a siblings child */
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+	background-color: transparent;
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+	transform: rotate(45deg);
+	top: 0;
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+	transform: rotate(-45deg);
+	top: 0;
+}
+
+/* animate before line to move up */
+.navigation__button:hover .navigation__icon::before {
+	top: -12px;
+}
+
+/* animate after line to move down */
+.navigation__button:hover .navigation__icon::after {
+	top: 12px;
+}
+
+.navigation__background {
+	background-image: radial-gradient(var(--lightred), var(--red));
+	/* easings.net for different types of animations */
+	transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navigation__item {
+	margin: 10px;
+}
+
+.navigation__link:link,
+.navigation__link:visited {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 300;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	/* color: 0% - 50%, white: 50% - 100%. */
+	background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+	/* increase background size */
+	background-size: 230%;
+	transition: all 0.4s;
+}
+
+.navigation__link > span {
+	margin-right: 15px;
+	display: inline-block;
+}
+
+.navigation__link:hover,
+.navigation__link:active {
+	background-position: 100%;
+	color: var(--red);
+	transform: translateX(10px);
+}

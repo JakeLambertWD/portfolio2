@@ -1,0 +1,6 @@
+.about__heading {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #8a8a8a;
+	font-weight: 800;
+}

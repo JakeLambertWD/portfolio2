@@ -1,0 +1,120 @@
+.grid::after {
+	content: '';
+	/* Let the element behave like a <table> element */
+	display: table;
+	/* clear both floats (left and right) */
+	clear: both;
+}
+
+.card {
+	/* The perspective property is used to give a 3D-positioned element some perspective. */
+	perspective: 150rem;
+	-moz-perspective: 150rem;
+}
+
+.card__side {
+	/* makes animation smoother */
+	transition: all 0.8s ease;
+	/* hide the backside of the element during animation */
+	backface-visibility: hidden;
+}
+
+.card__side__back {
+	transform: rotateY(180deg);
+}
+
+.back__1 {
+	background-image: var(--linear-gradient-red);
+}
+.back__2 {
+	background-image: linear-gradient(to left bottom, #405de6, #833ab4, #e1306c, #f56040, #fcaf45);
+}
+.back__3 {
+	background-image: linear-gradient(to bottom right, black, gray);
+}
+.back__4 {
+	background-image: linear-gradient(to right bottom, #cf8f2e, #703b09);
+}
+.back__5 {
+	background: #f48982;
+}
+.back__6 {
+	background-image: linear-gradient(to bottom right, #2167c4, #fa3a3a);
+}
+
+.card__picture {
+	/* to work on other browsers */
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+	/* defines the blending mode of each background layer (color and/or image) */
+	background-blend-mode: screen;
+}
+
+.card__picture__1 {
+	background-image: url(../../public/images/netflix.png);
+}
+.card__picture__2 {
+	background-image: url(../../public/images/insta.PNG);
+}
+.card__picture__3 {
+	background-image: url(../../public/images/nextjs.png);
+}
+.card__picture__4 {
+	background-image: url(https://www.jakelambert.me/static/media/burger.1e4de7a9.PNG);
+	background-size: contain;
+	background-repeat: space;
+}
+.card__picture__5 {
+	background-image: url(https://www.jakelambert.me/static/media/forkify.98ab43d7.png);
+}
+.card__picture__6 {
+	background-image: url(https://www.jakelambert.me/static/media/mapty.a90395b8.png);
+}
+
+.card__heading__span {
+	/* to work in Chrome */
+	-webkit-box-decoration-break: clone;
+	/* when an element is fragmented, this applies styles to each fragment as if it was its own element */
+	box-decoration-break: clone;
+}
+
+.heading__span__1 {
+	background-image: var(--linear-gradient-red);
+}
+
+.heading__span__2 {
+	background-image: linear-gradient(to left bottom, #405de6, #833ab4, #e1306c, #f56040, #fcaf45);
+}
+
+.heading__span__3 {
+	background-image: linear-gradient(to bottom right, black, gray);
+}
+.heading__span__4 {
+	background-image: linear-gradient(to right bottom, #cf8f2e, #703b09);
+}
+
+.heading__span__5 {
+	background: #f48982;
+}
+
+.heading__span__6 {
+	background-image: linear-gradient(to bottom right, #2167c4, #fa3a3a);
+}
+
+.card__list {
+	font-size: 15px;
+	padding: 10px;
+}
+
+.card__list:not(:last-child) {
+	border-bottom: 1px solid var(--grey-light2);
+}
+
+.card:hover .card__side__front {
+	transform: rotateY(-180deg);
+}
+
+.card:hover .card__side__back {
+	transform: rotateY(0);
+}

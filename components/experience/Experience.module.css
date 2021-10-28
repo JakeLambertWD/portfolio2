@@ -1,0 +1,63 @@
+.bg__video {
+	width: 100vw;
+	height: 100vh;
+	/* height: 100%; */
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 20;
+	opacity: 0.15;
+}
+
+.bg__video__content {
+	width: 100vw;
+	height: 100vh;
+	/*  fill entire parent whilst still maintaining its aspect ratio */
+	object-fit: cover;
+}
+
+.story {
+	width: 75%;
+	margin: 0 auto;
+	box-shadow: 0 30px 60px rgb(0, 0, 0, 0.1);
+	background-color: rgb(255, 255, 255, 0.6);
+	border-radius: 3px;
+	padding: 60px;
+	padding-left: 90px;
+	/* skew background */
+	transform: skewX(-12deg);
+}
+
+.story__shape {
+	background-color: #dd5e5e;
+	width: 150px;
+	height: 150px;
+	float: left;
+	/* to work in safari browser */
+	-webkit-shape-outside: circle(50% at 50% 50%);
+	/* defines a shape around which adjacent inline content should wrap. */
+	shape-outside: circle(50% at 50% 50%);
+	/* to form a circle */
+	-webkit-clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
+	/* make space between the shape and text && skew back to neutral */
+	transform: translateX(-30px) skewX(12deg);
+	position: relative;
+}
+
+.story__shape__2 {
+	background-color: #7cdd5e;
+}
+
+.story__shape > img {
+	/* zoom in */
+	transform: scale(0.9);
+	/* fix animation glitch */
+	backface-visibility: hidden;
+	transition: all 0.5s;
+}
+
+.story__text {
+	/* skew back to neutral */
+	transform: skewX(12deg);
+}

@@ -1,0 +1,119 @@
+.header {
+	height: 95vh;
+	/* background image with a gradient over the top of it */
+	background-image: linear-gradient(to right bottom, var(--lightred), var(--lightred), var(--red));
+	/* fit image in the element */
+	background-size: cover;
+	/* sets the starting position of the image to the top */
+	background-position: center;
+	position: relative;
+
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	/* creates a clipping region that sets what part of an element should be shown. Parts that are inside the region are shown, while those outside are hidden. */
+	/* this methods coords always start in the top-left corner polygon(x y, x y, x y, x y) */
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.composition__photo {
+	width: 350px;
+	height: 200px;
+	box-shadow: 0 15px 40px rgba(black, 0.4);
+	position: absolute;
+	z-index: 1;
+	/* animation duration */
+	transition: all 0.2s;
+	/* create space between border and image */
+	outline-offset: 20px;
+}
+
+.composition__photo:hover {
+	/* increase size and move up on Y axis */
+	transform: scale(1.05) translateY(-0.5rem);
+	box-shadow: 0 25px 40px rgba(black, 0.5);
+	z-index: 2;
+	/* special type of border */
+	outline: 15px solid var(--red);
+}
+
+#smoothScroll {
+	scroll-behavior: smooth;
+}
+
+.composition__1:hover {
+	/* special type of border */
+	outline: 15px solid rgb(240, 219, 79);
+}
+.composition__2:hover {
+	/* special type of border */
+	outline: 15px solid #22a838;
+}
+.composition__3:hover {
+	/* special type of border */
+	outline: 15px solid #db0000;
+}
+
+.composition:hover .composition__photo:not(:hover) {
+	/* reduce the size of the images that are not hovered */
+	transform: scale(0.95);
+}
+
+.heading__primary {
+	font-family: 'Source Code Pro', monospace;
+}
+
+.heading__primary__sub {
+	animation: moveInLeft 3s ease-out forwards 10s;
+	opacity: 0;
+}
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		/* animation on the x horizontal plane in relation to itself */
+		transform: translateX(-10rem);
+	}
+
+	80% {
+		transform: translateX(1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.typewriter::before,
+.typewriter::after {
+	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.typewriter::before {
+	background-color: #ff4c3f;
+	animation: typewriter-animation var(--typewriterSpeed) var(--typewriterSteps) forwards var(--typewriterDelay);
+}
+
+.typewriter::after {
+	width: 0.125em;
+	height: 65%;
+	background: black;
+	animation: typewriter-animation var(--typewriterSpeed) var(--typewriterSteps) forwards var(--typewriterDelay),
+		blink 750ms var(--typewriterSteps) infinite;
+}
+
+@keyframes typewriter-animation {
+	to {
+		left: 100%;
+	}
+}
+
+@keyframes blink {
+	to {
+		background: transparent;
+	}
+}

@@ -1,0 +1,57 @@
+.skills {
+	padding: 160px 0;
+	background-image: var(--linear-gradient-blue);
+	display: block;
+	margin-top: -20vh;
+	transform: skewY(-7deg);
+}
+
+.skills > * {
+	transform: skewY(7deg);
+}
+
+.story {
+	height: 60px;
+}
+
+.story__shape {
+	width: 85%;
+	/* to form a circle */
+	-webkit-clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
+	position: relative;
+}
+
+.story__img {
+	height: 70%;
+	transform: scale(0.7);
+	/* fix animation glitch */
+	backface-visibility: hidden;
+	transition: all 0.5s;
+}
+
+.story__caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 20%);
+	color: black;
+	text-transform: capitalize;
+	font-size: 12px;
+	text-align: center;
+	opacity: 0;
+	/* animation speed */
+	transition: all 0.5s;
+	/* remove little animation glitch */
+	backface-visibility: hidden;
+}
+
+.story__shape:hover .story__caption {
+	opacity: 1;
+	transform: translate(-50%, -50%);
+}
+
+.story__shape:hover .story__img {
+	transform: scale(0.9);
+	filter: blur(3px) brightness(80%);
+}
