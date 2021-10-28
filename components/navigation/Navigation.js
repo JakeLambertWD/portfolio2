@@ -8,7 +8,7 @@ const Navigation = () => {
 			<input type='checkbox' className={`${classes.navigation__checkbox} hidden`} id='navi-toggle' />
 
 			<label
-				for='navi-toggle'
+				htmlFor='navi-toggle'
 				className={`${classes.navigation__button}  h-[63px] w-[63px] bg-white fixed top-[64px] right-[64px] rounded-full z-10 shadow-lg text-center cursor-pointer`}
 			>
 				<span className={`${classes.navigation__icon} relative mt-[30px]`}></span>
