@@ -61,15 +61,15 @@
 	background-image: url(../../public/images/nextjs.png);
 }
 .card__picture__4 {
-	background-image: url(https://www.jakelambert.me/static/media/burger.1e4de7a9.PNG);
+	/* background-image: url(https://www.jakelambert.me/static/media/burger.1e4de7a9.PNG); */
 	background-size: contain;
 	background-repeat: space;
 }
 .card__picture__5 {
-	background-image: url(https://www.jakelambert.me/static/media/forkify.98ab43d7.png);
+	/* background-image: url(https://www.jakelambert.me/static/media/forkify.98ab43d7.png); */
 }
 .card__picture__6 {
-	background-image: url(https://www.jakelambert.me/static/media/mapty.a90395b8.png);
+	/* background-image: url(https://www.jakelambert.me/static/media/mapty.a90395b8.png); */
 }
 
 .card__heading__span {

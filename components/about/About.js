@@ -19,7 +19,7 @@ const About = () => {
 					</p>
 				</div>
 				<div className='col-span-1 flex justify-center items-center'>
-					<img className='w-96' src='https://www.jakelambert.me/static/media/Profile.09c11234.jpeg' alt='' />
+					{/* <img className='w-96' src='https://www.jakelambert.me/static/media/Profile.09c11234.jpeg' alt='' /> */}
 				</div>
 			</div>
 		</section>

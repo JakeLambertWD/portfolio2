@@ -31,7 +31,7 @@ const Hero = () => {
 						</div>
 
 						<div className={`${classes.composition__photo} ${classes.composition__2} right-0 top-[20px]`}>
-							<img src='https://www.jakelambert.me/static/media/budgety.66ff51db.png' alt='' className='object-fill h-full w-full' />
+							{/* <img src='https://www.jakelambert.me/static/media/budgety.66ff51db.png' alt='' className='object-fill h-full w-full' /> */}
 						</div>
 						<div className={`${classes.composition__photo} ${classes.composition__3} left-[20%] top-[100px]`}>
 							<img src='/images/netflix2.png' alt='' className='object-fill h-full w-full' />
