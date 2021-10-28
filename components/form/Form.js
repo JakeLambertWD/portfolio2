@@ -77,18 +77,18 @@ const Form = () => {
 					</div>
 					<div className='w-full pt-8 '>
 						<h1 className='headings__main w-max m-auto border-b-2 border-black pb-2'>Get In Touch</h1>
-						<form onSubmit={sendEmail} class='px-8 pt-6 pb-8 mb-4'>
-							<div class='mb-6'>
+						<form onSubmit={sendEmail} className='px-8 pt-6 pb-8 mb-4'>
+							<div className='mb-6'>
 								<input
-									class='shadow-inner appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+									className='shadow-inner appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
 									name='name'
 									type='text'
 									placeholder='Name'
 								/>
 							</div>
-							<div class='mb-6'>
+							<div className='mb-6'>
 								<input
-									class='shadow-inner appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+									className='shadow-inner appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
 									name='email'
 									type='text'
 									placeholder='Email'
@@ -96,7 +96,7 @@ const Form = () => {
 							</div>
 							<div className='mb-8'>
 								<textarea
-									class='shadow-inner appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+									className='shadow-inner appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
 									name='message'
 									placeholder='Message'
 								/>

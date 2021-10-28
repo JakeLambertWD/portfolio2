@@ -5,7 +5,7 @@ const Navigation = () => {
 
 	return (
 		<>
-			<input type='checkbox' class={`${classes.navigation__checkbox} hidden`} id='navi-toggle' />
+			<input type='checkbox' className={`${classes.navigation__checkbox} hidden`} id='navi-toggle' />
 
 			<label
 				for='navi-toggle'
@@ -47,26 +47,6 @@ const Navigation = () => {
 					</li>
 				</ul>
 			</nav>
-
-			{/* <nav class="navigation__nav">
-				<ul class="navigation__list">
-					<li class="navigation__item"></li>
-						<a href="" class="navigation__link"><span>01</span>About Natours</a>
-					</li>
-					<li class="navigation__item">
-						<a href="" class="navigation__link"><span>02</span>Your benefits</a>
-					</li>
-					<li class="navigation__item">
-						<a href="" class="navigation__link"><span>03</span>Popular tours</a>
-					</li>
-					<li class="navigation__item">
-						<a href="" class="navigation__link"><span>04</span>Stories</a>
-					</li>
-					<li class="navigation__item">
-						<a href="" class="navigation__link"><span>05</span>Book now</a>
-					</li>
-				</ul>
-			</nav> */}
 		</>
 	);
 };

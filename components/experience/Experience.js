@@ -3,7 +3,7 @@ import classes from './Experience.module.css';
 const Experience = () => {
 	return (
 		<>
-			<h2 class='headings__main text-center mb-12 mt-32'>My Experience</h2>
+			<h2 className='headings__main text-center mb-12 mt-32'>My Experience</h2>
 
 			<div className={`${classes.story}`}>
 				<figure className={`${classes.story__shape} my-5 shadow-2xl`}>
