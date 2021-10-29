@@ -5,7 +5,7 @@ const Projects = () => {
 		<section className='bg-[#f7f7f7] pt-6 pb-4 -mt-40 h-[1900px]'>
 			<div className='mb-20 text-center mt-40'>
 				<h2 className='headings__main' id='projects'>
-					Here are my projects
+					Projects
 				</h2>
 			</div>
 			<div className={` grid grid-cols-3 gap-14 max-w-6xl m-auto h-1/3 block`}>

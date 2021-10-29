@@ -3,7 +3,7 @@ import classes from './Skills.module.css';
 const Skills = () => {
 	return (
 		<secion className={`${classes.skills}`}>
-			<h2 className='headings__main text-center mb-12'>My Tech Skills</h2>{' '}
+			<h2 className='headings__main text-center mb-12'>Technology Skills</h2>{' '}
 			<div className='grid grid-cols-2 gap-10 px-32'>
 				<div className='col-span-1'>
 					<div className='text-center bg-white text-base p-6 rounded shadow-lg transition-all duration-200 cursor-pointer hover:-translate-y-3 hover:scale-[1.02]'>

@@ -26,23 +26,28 @@ const Navigation = () => {
 						</a>
 					</li>
 					<li className={`${classes.navigation__item}`}>
-						<a href='#projects' className={`${classes.navigation__link}`}>
+						<a href='/' className={`${classes.navigation__link}`}>
 							<span>02</span>Projects
 						</a>
 					</li>
 					<li className={`${classes.navigation__item}`}>
-						<a href='' className={`${classes.navigation__link}`}>
-							<span>03</span>About
+						<a href='/' className={`${classes.navigation__link}`}>
+							<span>03</span>Work Experience
 						</a>
 					</li>
 					<li className={`${classes.navigation__item}`}>
-						<a href='' className={`${classes.navigation__link}`}>
-							<span>04</span>timeline
+						<a href='/' className={`${classes.navigation__link}`}>
+							<span>04</span>Skills
 						</a>
 					</li>
 					<li className={`${classes.navigation__item}`}>
-						<a href='' className={`${classes.navigation__link}`}>
-							<span>05</span>form
+						<a href='/' className={`${classes.navigation__link}`}>
+							<span>05</span>About Me
+						</a>
+					</li>
+					<li className={`${classes.navigation__item}`}>
+						<a href='/' className={`${classes.navigation__link}`}>
+							<span>06</span>Contact
 						</a>
 					</li>
 				</ul>
