@@ -1,7 +1,7 @@
 import classes from './Navigation.module.css';
 
 const Navigation = () => {
-	// const navItems = [{ itemNumber: 01, item: 'Home' }, {item}];
+	const closeNav = () => {};
 
 	return (
 		<>
@@ -21,7 +21,7 @@ const Navigation = () => {
 			>
 				<ul className={`${classes.navigation__list} list-none text-center w-full`}>
 					<li className={`${classes.navigation__item}`}>
-						<a href='/' className={`${classes.navigation__link} `}>
+						<a href='#projects' className={`${classes.navigation__link} `} onClick={closeNav()}>
 							<span>01</span>Home
 						</a>
 					</li>

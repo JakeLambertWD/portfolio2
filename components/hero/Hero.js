@@ -1,7 +1,6 @@
 import classes from './Hero.module.css';
-import insta from '../../public/images/insta.png';
-import netflix from '../../public/images/netflix.png';
 import Image from 'next/image';
+// import MediumClap from '../mediumClap/MediumClap';
 
 const Hero = () => {
 	return (
@@ -9,6 +8,10 @@ const Hero = () => {
 			<div className='absolute top-[40px] left-[40px]'>
 				<img src='https://i.pinimg.com/originals/c8/99/df/c899dfa4bbfd4965b826c3a7cca87ef9.jpg' alt='' className='h-[65px] rounded-full' />
 			</div>
+
+			{/* <div className={classes.medium_clap}>
+				<MediumClap />
+			</div> */}
 
 			<div className='grid grid-cols-4 h-full'>
 				<div className='w-full col-span-2 flex flex-col justify-center items-center'>
@@ -27,14 +30,17 @@ const Hero = () => {
 				<div className='col-span-2 flex justify-center items-center'>
 					<div className={`${classes.composition} relative w-4/5 h-1/2`}>
 						<div className={`${classes.composition__photo} ${classes.composition__1} left-0 top-[-20px]`} alt=''>
-							<img src='/images/jake.png' alt='' className='object-fill h-full w-full' />
+							{/* <img src='/images/jake.png' alt='' className='object-fill h-full w-full' /> */}
+							<Image src={'/images/jake.png'} width={350} height={200} />
 						</div>
 
 						<div className={`${classes.composition__photo} ${classes.composition__2} right-0 top-[20px]`}>
-							<img src='/images/budgety.png' alt='' className='object-fill h-full w-full' />
+							{/* <img src='/images/budgety.png' alt='' className='object-fill h-full w-full' /> */}
+							<Image src={'/images/budgety.png'} width={350} height={200} />
 						</div>
 						<div className={`${classes.composition__photo} ${classes.composition__3} left-[20%] top-[100px]`}>
-							<img src='/images/netflix2.png' alt='' className='object-fill h-full w-full' />
+							{/* <img src='/images/netflix2.png' alt='' className='object-fill h-full w-full' /> */}
+							<Image src={'/images/netflix2.png'} width={350} height={200} />
 						</div>
 					</div>
 				</div>

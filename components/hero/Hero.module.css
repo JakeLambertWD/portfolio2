@@ -117,3 +117,9 @@
 		background: transparent;
 	}
 }
+
+.medium_clap {
+	position: absolute;
+	right: 30px;
+	top: 60px;
+}

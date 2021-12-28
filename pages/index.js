@@ -18,7 +18,7 @@ export default function Home() {
 				<link href='https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap' rel='stylesheet'></link>
 			</Head>
 			<div className='m-[30px] bg-gray-100'>
-				<Navigation />
+				{/* <Navigation /> */}
 				<Hero />
 				<Projects />
 				<Skills />
