@@ -6,7 +6,9 @@ const Hero = () => {
 	return (
 		<header className={`${classes.header} `}>
 			<div className='absolute top-[40px] left-[40px]'>
-				<img src='https://i.pinimg.com/originals/c8/99/df/c899dfa4bbfd4965b826c3a7cca87ef9.jpg' alt='' className='h-[65px] rounded-full' />
+				<a href='/'>
+					<img src='https://i.pinimg.com/originals/c8/99/df/c899dfa4bbfd4965b826c3a7cca87ef9.jpg' alt='' className='h-[65px] rounded-full' />
+				</a>
 			</div>
 
 			{/* <div className={classes.medium_clap}>
