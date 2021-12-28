@@ -23,12 +23,12 @@
 	transition: all 0.2s;
 	/* create space between border and image */
 	outline-offset: 20px;
+	background-color: transparent;
 }
 
 .composition__photo:hover {
 	/* increase size and move up on Y axis */
 	transform: scale(1.05) translateY(-0.5rem);
-	box-shadow: 0 25px 40px rgba(black, 0.5);
 	z-index: 2;
 	/* special type of border */
 	outline: 15px solid var(--red);
