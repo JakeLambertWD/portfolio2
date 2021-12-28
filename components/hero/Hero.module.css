@@ -17,7 +17,6 @@
 .composition__photo {
 	width: 350px;
 	height: 200px;
-	box-shadow: 0 15px 40px rgba(black, 0.4);
 	position: absolute;
 	z-index: 1;
 	/* animation duration */
@@ -41,7 +40,7 @@
 
 .composition__1:hover {
 	/* special type of border */
-	outline: 15px solid rgb(240, 219, 79);
+	outline: 15px solid #2d3439;
 }
 .composition__2:hover {
 	/* special type of border */

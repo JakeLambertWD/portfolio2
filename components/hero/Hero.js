@@ -29,18 +29,18 @@ const Hero = () => {
 
 				<div className='col-span-2 flex justify-center items-center'>
 					<div className={`${classes.composition} relative w-4/5 h-1/2`}>
-						<div className={`${classes.composition__photo} ${classes.composition__1} left-0 top-[-20px]`} alt=''>
+						<div className={`${classes.composition__photo} ${classes.composition__1} left-0 top-[-20px] shadow-2xl rounded-sm`} alt=''>
 							{/* <img src='/images/jake.png' alt='' className='object-fill h-full w-full' /> */}
-							<Image src={'/images/jake.png'} width={350} height={200} priority />
+							<Image src={'/images/mapty.png'} layout='fill' priority className='rounded-lg' />
 						</div>
 
-						<div className={`${classes.composition__photo} ${classes.composition__2} right-0 top-[20px]`}>
+						<div className={`${classes.composition__photo} ${classes.composition__2} right-0 top-[20px] shadow-2xl rounded-sm`}>
 							{/* <img src='/images/budgety.png' alt='' className='object-fill h-full w-full' /> */}
-							<Image src={'/images/budgety.png'} width={350} height={200} priority />
+							<Image src={'/images/budgety.png'} layout='fill' priority className='rounded-lg' />
 						</div>
-						<div className={`${classes.composition__photo} ${classes.composition__3} left-[20%] top-[100px]`}>
+						<div className={`${classes.composition__photo} ${classes.composition__3} left-[20%] top-[100px] shadow-2xl rounded-sm`}>
 							{/* <img src='/images/netflix2.png' alt='' className='object-fill h-full w-full' /> */}
-							<Image src={'/images/netflix2.png'} width={350} height={200} priority />
+							<Image src={'/images/netflix.png'} layout='fill' priority className='rounded-lg' />
 						</div>
 					</div>
 				</div>
