@@ -22,7 +22,7 @@
 	--grey-dark-2: #999;
 	--grey-dark-3: #333;
 
-	--typewriterSpeed: 8s;
+	--typewriterSpeed: 5s;
 	--typewriterSteps: steps(14);
 	--typewriterDelay: 1s;
 }

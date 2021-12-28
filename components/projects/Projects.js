@@ -3,8 +3,8 @@ import classes from './Projects.module.css';
 const Projects = () => {
 	return (
 		<section className='bg-[#f7f7f7] pt-6 pb-4 -mt-40 h-[1900px]'>
-			<div className='mb-20 text-center mt-40'>
-				<h2 className='headings__main' id='projects'>
+			<div className='mb-20 text-center'>
+				<h2 className='headings__main  mt-60' id='projects'>
 					Projects
 				</h2>
 			</div>
