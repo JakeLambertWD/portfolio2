@@ -18,7 +18,7 @@ const Form = () => {
 
 	return (
 		<>
-			<section className='bg-gradient-to-br from-red-500 to-red-600 py-52'>
+			<section className='bg-gradient-to-br from-red-500 to-red-600 py-40 h-screen'>
 				<div className='flex justify-center items-center bg-gray-100 rounded-md m-auto max-w-6xl text-center'>
 					<div className=' w-full pt-8 bg-white rounded-l-md shadow-2xl'>
 						<h1 className='headings__main w-max m-auto border-b-2 border-black pb-2'>Lets Get Social</h1>
