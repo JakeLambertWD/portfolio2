@@ -34,7 +34,7 @@ const Experience = () => {
 			<br />
 			<div className={`${classes.story}`}>
 				<figure className={`${classes.story__shape__2} ${classes.story__shape} flex justify-center items-center my-5 shadow-2xl`}>
-					<img src='https://www.charle.co.uk/media/images/logo.png' alt='' className='h-2/5' />
+					<img src='https://www.charle.co.uk/media/images/logo.png' alt='' className='h-[35%]' />
 				</figure>
 				<div className={classes.story__text}>
 					<h3 className='font-bold mb-2'>
