@@ -8,7 +8,7 @@ const About = () => {
 					<h1 className={`${classes.about__heading} text-[110px] uppercase text-left w-5/6`}>About me</h1>
 					<h2 className='text-[48px] capitalize font-bold mb-8 text-left w-5/6'>Get to know me</h2>
 					<p className='text-left mb-5 tracking-widest w-5/6'>
-						At this current moment I have 8 months of experience under my belt for 2 separate agencies being a Junior Front End Developer.
+						At this current moment I have 1 year 4 months of experience under my belt for 3 separate companies as a Front End Developer.
 					</p>
 					<p className='text-left mb-5 tracking-widest w-5/6'>
 						I have a clear vision regarding my career path, that being front end development narrowing down to modern tech like React, TypeScript,
