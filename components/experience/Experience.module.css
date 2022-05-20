@@ -28,6 +28,10 @@
 	transform: skewX(-12deg);
 }
 
+.story_1 {
+	padding: 82px;
+}
+
 .story__shape {
 	background-color: #dd5e5e;
 	width: 150px;
@@ -47,6 +51,10 @@
 
 .story__shape__2 {
 	background-color: #7cdd5e;
+}
+
+.story__shape__3 {
+	background-color: #cbe0ff;
 }
 
 .story__shape > img {

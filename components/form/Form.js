@@ -49,7 +49,7 @@ const Form = () => {
 								</ExternalLink>
 							</div>
 							<div className='col-span-1 rounded-md'>
-								<ExternalLink href='https://www.canva.com/design/DADm9Ywcdvg/TbHitUTQs_TftJzq3j7_tA/edit'>
+								<ExternalLink href='https://www.canva.com/design/DAFBI34-f20/0O38EhpxRC1Xnp_gmLHiVA/edit'>
 									<img className='h-10' src='https://www.boostini.pro/wp-content/uploads/2021/07/canva-logo.png' alt='' />
 								</ExternalLink>
 							</div>
