@@ -19,9 +19,7 @@ const Hero = () => {
 				<div className='w-full col-span-2 flex flex-col justify-center items-center'>
 					<h1 className={`${classes.heading__primary} capatalize text-white mb-[40px] mt-[-80px] relative`}>
 						<span className={`${classes.typewriter} block text-[45px] font-[400] tracking-[20px] w-max`}>Jake Lambert😃</span>
-						<span className={`${classes.heading__primary__sub} block text-[18px] font-[700] tracking-[10px] w-max mt-3`}>
-							Junior Front End Developer
-						</span>
+						<span className={`${classes.heading__primary__sub} block text-[18px] font-[700] tracking-[10px] w-max mt-3`}>Front End Developer</span>
 					</h1>
 
 					<a href='#projects' id={`${classes.smoothScroll}`} className='bg-white px-5 py-3 rounded-3xl shadow-lg'>
