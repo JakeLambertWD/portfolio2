@@ -6,7 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@mojs/core": "^1.2.1",
+    "@mui/material": "^5.9.1",
     "@tailwindcss/forms": "^0.3.4",
     "emailjs-com": "^3.2.0",
     "next": "latest",

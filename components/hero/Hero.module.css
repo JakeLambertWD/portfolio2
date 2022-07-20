@@ -15,8 +15,8 @@
 }
 
 .composition__photo {
-	width: 350px;
-	height: 200px;
+	width: 70%;
+	height: 62%;
 	position: absolute;
 	z-index: 1;
 	/* animation duration */
@@ -40,11 +40,11 @@
 
 .composition__1:hover {
 	/* special type of border */
-	outline: 15px solid #2d3439;
+	outline: 15px solid rgb(250 204 21);
 }
 .composition__2:hover {
 	/* special type of border */
-	outline: 15px solid #22a838;
+	outline: 15px solid #008ce3;
 }
 .composition__3:hover {
 	/* special type of border */

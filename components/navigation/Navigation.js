@@ -4,7 +4,7 @@ const Navigation = () => {
 	const closeNav = () => {};
 
 	return (
-		<>
+		<div>
 			<input type='checkbox' className={`${classes.navigation__checkbox} hidden`} id='navi-toggle' />
 
 			<label
@@ -52,7 +52,7 @@ const Navigation = () => {
 					</li>
 				</ul>
 			</nav>
-		</>
+		</div>
 	);
 };
 

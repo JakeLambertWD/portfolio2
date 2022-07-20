@@ -1,6 +1,11 @@
 import classes from './Hero.module.css';
 import Image from 'next/image';
+import Button from '@mui/material/Button';
 // import MediumClap from '../mediumClap/MediumClap';
+
+const smoothScroll = () => {
+	window.scrollTo({ top: 800, behavior: 'smooth' });
+};
 
 const Hero = () => {
 	return (
@@ -22,18 +27,18 @@ const Hero = () => {
 						<span className={`${classes.heading__primary__sub} block text-[18px] font-[700] tracking-[10px] w-max mt-3`}>Front End Developer</span>
 					</h1>
 
-					<a href='#projects' id={`${classes.smoothScroll}`} className='bg-white px-5 py-3 rounded-3xl shadow-lg'>
+					<Button onClick={smoothScroll} size='large' variant='outlined' color='inherit' sx={{ color: 'white' }}>
 						Explore my projects
-					</a>
+					</Button>
 				</div>
 
 				<div className='col-span-2 flex justify-center items-center'>
 					<div className={`${classes.composition} relative w-4/5 h-1/2`}>
 						<div className={`${classes.composition__photo} ${classes.composition__1} left-0 top-[-20px] rounded-sm`} alt=''>
-							<Image src={'/images/mapty.png'} layout='fill' priority className='rounded-lg shadow-2xl' />
+							<Image src={'/images/medium.png'} layout='fill' priority className='rounded-lg shadow-2xl' />
 						</div>
 						<div className={`${classes.composition__photo} ${classes.composition__2} right-0 top-[20px] rounded-sm`}>
-							<Image src={'/images/budgety.png'} layout='fill' priority className='rounded-lg shadow-2xl' />
+							<Image src={'/images/golsgym.png'} layout='fill' priority className='rounded-lg shadow-2xl' />
 						</div>
 						<div className={`${classes.composition__photo} ${classes.composition__3} left-[20%] top-[100px] rounded-sm`}>
 							<Image src={'/images/netflix.png'} layout='fill' priority className='rounded-lg shadow-2xl' />
