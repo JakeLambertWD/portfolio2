@@ -312,7 +312,7 @@ const Projects = () => {
 								</a>
 								<a
 									target='_blank'
-									href='https://github.com/JakeLambertWD/nextjs-blog/tree/master'
+									href='https://github.com/JakeLambertWD/mapty'
 									className='block bg-white py-3 px-3 w-1/2 m-auto rounded-3xl shadow-xl'
 								>
 									View Code
