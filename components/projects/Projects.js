@@ -95,12 +95,16 @@ const Projects = () => {
 									<p className='text-sm uppercase'></p>
 									<p className='text-6xl font-thin'>Golds Gym</p>
 								</div>
-								<a target='_blank' href='https://jsm-gym.netlify.app/' className='block bg-white py-3 px-3 w-1/2 m-auto rounded-3xl mb-5 shadow-xl'>
+								<a
+									target='_blank'
+									href='https://golds-gyms.netlify.app/'
+									className='block bg-white py-3 px-3 w-1/2 m-auto rounded-3xl mb-5 shadow-xl'
+								>
 									Visit Site
 								</a>
 								<a
 									target='_blank'
-									href='https://github.com/JakeLambertWD/forkify'
+									href='https://github.com/JakeLambertWD/fitness-javascript-mastery'
 									className='block bg-white py-3 px-3 w-1/2 m-auto rounded-3xl shadow-xl'
 								>
 									View Code
@@ -152,7 +156,7 @@ const Projects = () => {
 								</a>
 								<a
 									target='_blank'
-									href='https://github.com/JakeLambertWD/golds-gym-fitness'
+									href='https://github.com/JakeLambertWD/medium-sanity-cms'
 									className='block bg-white py-3 px-3 w-1/2 m-auto rounded-3xl shadow-xl'
 								>
 									View Code
