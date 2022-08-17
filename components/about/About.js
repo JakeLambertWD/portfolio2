@@ -6,7 +6,7 @@ const About = () => {
 			<div className='grid grid-cols-2'>
 				<div className='col-span-1 flex justify-center items-center flex-col'>
 					<h1
-						className={`${classes.about__heading} text-[110px] uppercase text-left w-5/6`}
+						className={`${classes.about__heading} text-[90px] uppercase text-left w-5/6`}
 					>
 						About me
 					</h1>
