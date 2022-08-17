@@ -1,7 +1,12 @@
 .header {
 	height: 95vh;
 	/* background image with a gradient over the top of it */
-	background-image: linear-gradient(to right bottom, var(--lightred), var(--lightred), var(--red));
+	background-image: linear-gradient(
+		to right bottom,
+		var(--lightred),
+		var(--lightred),
+		var(--red)
+	);
 	/* fit image in the element */
 	background-size: cover;
 	/* sets the starting position of the image to the top */
@@ -61,7 +66,7 @@
 }
 
 .heading__primary__sub {
-	animation: moveInLeft 3s ease-out forwards 6s;
+	animation: moveInLeft 3s ease-out forwards 4s;
 	opacity: 0;
 }
 
@@ -94,14 +99,16 @@
 
 .typewriter::before {
 	background-color: #ff4c3f;
-	animation: typewriter-animation var(--typewriterSpeed) var(--typewriterSteps) forwards var(--typewriterDelay);
+	animation: typewriter-animation var(--typewriterSpeed) var(--typewriterSteps) forwards
+		var(--typewriterDelay);
 }
 
 .typewriter::after {
 	width: 0.125em;
 	height: 65%;
 	background: black;
-	animation: typewriter-animation var(--typewriterSpeed) var(--typewriterSteps) forwards var(--typewriterDelay),
+	animation: typewriter-animation var(--typewriterSpeed) var(--typewriterSteps) forwards
+			var(--typewriterDelay),
 		blink 750ms var(--typewriterSteps) infinite;
 }
 

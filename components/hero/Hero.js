@@ -16,9 +16,6 @@ const Hero = () => {
 				</a>
 			</div>
 
-			{/* <div className={classes.medium_clap}>
-				<MediumClap />
-			</div> */}
 
 			<div className='grid grid-cols-4 h-full'>
 				<div className='w-full col-span-2 flex flex-col justify-center items-center'>

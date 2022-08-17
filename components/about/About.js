@@ -5,17 +5,26 @@ const About = () => {
 		<section className='bg-[#323330] text-[#8a8a8a] pb-32 pt-20 h-screen'>
 			<div className='grid grid-cols-2'>
 				<div className='col-span-1 flex justify-center items-center flex-col'>
-					<h1 className={`${classes.about__heading} text-[110px] uppercase text-left w-5/6`}>About me</h1>
-					<h2 className='text-[48px] capitalize font-bold mb-8 text-left w-5/6'>Get to know me</h2>
+					<h1
+						className={`${classes.about__heading} text-[110px] uppercase text-left w-5/6`}
+					>
+						About me
+					</h1>
+					<h2 className='text-[48px] capitalize font-bold mb-8 text-left w-5/6'>
+						Get to know me
+					</h2>
 					<p className='text-left mb-5 tracking-widest w-5/6'>
-						At this current moment I have 1 year 4 months of experience under my belt for 3 separate companies as a Front End Developer.
+						At this current moment I have 1 year 4 months of experience under my belt for
+						3 separate companies as a Front End Developer.
 					</p>
 					<p className='text-left mb-5 tracking-widest w-5/6'>
-						I have a clear vision regarding my career path, that being front end development narrowing down to modern tech like React, TypeScript,
+						I have a clear vision regarding my career path, that being front end
+						development narrowing down to modern tech like React, Next.js, TypeScript,
 						JavaScript, Tailwind, Material UI etc.
 					</p>
 					<p className='text-left mb-5 tracking-widest w-5/6'>
-						Looking for a step up in my career taking more responsibility within a company which respects the progression of it's employers.
+						Looking for a step up in my career taking more responsibility within a company
+						which respects the progression of it's employers.
 					</p>
 				</div>
 				<div className='col-span-1 flex justify-center items-center'>

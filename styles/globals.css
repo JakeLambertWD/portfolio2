@@ -5,15 +5,27 @@
 :root {
 	--red: rgb(243, 31, 16);
 	--lightred: rgb(255, 76, 63);
-	--linear-gradient-red: linear-gradient(to right bottom, rgb(255, 76, 63, 0.85), rgb(243, 31, 16, 0.85));
+	--linear-gradient-red: linear-gradient(
+		to right bottom,
+		rgb(255, 76, 63, 0.85),
+		rgb(243, 31, 16, 0.85)
+	);
 
 	--blue: rgb(9, 9, 238);
 	--lightblue: rgb(38, 38, 255);
-	--linear-gradient-blue: linear-gradient(to right bottom, rgba(38, 38, 255, 0.85), rgba(9, 9, 238, 0.85));
+	--linear-gradient-blue: linear-gradient(
+		to right bottom,
+		rgba(38, 38, 255, 0.85),
+		rgba(9, 9, 238, 0.85)
+	);
 
 	--green: rgb(35, 230, 9);
 	--lightgreen: rgb(71, 252, 47);
-	--linear-gradient-green: linear-gradient(to right bottom, rgba(71, 252, 47, 0.85), rgba(35, 230, 9, 0.85));
+	--linear-gradient-green: linear-gradient(
+		to right bottom,
+		rgba(71, 252, 47, 0.85),
+		rgba(35, 230, 9, 0.85)
+	);
 
 	--grey-light1: #f7f7f7;
 	--grey-light2: #eee;
@@ -22,7 +34,7 @@
 	--grey-dark-2: #999;
 	--grey-dark-3: #333;
 
-	--typewriterSpeed: 5s;
+	--typewriterSpeed: 3s;
 	--typewriterSteps: steps(14);
 	--typewriterDelay: 1s;
 }
