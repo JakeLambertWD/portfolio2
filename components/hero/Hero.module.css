@@ -20,8 +20,9 @@
 }
 
 .composition__photo {
-	width: 70%;
-	height: 62%;
+	width: 310px;
+	height: 170px;
+	object-fit: cover;
 	position: absolute;
 	z-index: 1;
 	/* animation duration */
